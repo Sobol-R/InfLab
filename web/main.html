@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Key Maker</title>
+        <script type="text/javascript" src="/eel.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="top-container">
+
+            <div id="change" onclick="changeConversionType()"> <span class="change_title">изменить тип перевода</span> </div>
+
+            <div class="title-container"><span class="title" id="title">Ключ по слову</span></div>
+
+            <div class="desc-container"><span class="description" id="desc">Введите слово, по которому хотите создать ключ</span></div>
+
+            <div class="word-input-container" id="input-cont"> <input type="text" id="word" class="word-input" placeholder="Abracadabra"> </div>
+
+            <div id="btn-create" onclick="convert()"> <span>Создать</span> </div>
+
+        </div>
+
+        <div id="post-process">
+
+          <div class="result-container">
+
+            <div id="result-box"> <span id="key">UWIREURWOJFWPJFSDMHKHDDKDJHJDFHJFDHFJ</span> </div>
+
+          </div>
+
+          <div class="sep"></div>
+
+          <span class="process-title">Процесс создания:</span>
+
+          <div id="hints"></div>
+
+        </div>
+
+    </body>
+
+</html>

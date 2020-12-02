@@ -1,0 +1,140 @@
+ @font-face { font-family: GilroyBold; src: url('assets/Gilroy-Bold.ttf'); }
+ @font-face { font-family: GilroySemiBold; src: url('assets/Gilroy-SemiBold.ttf'); }
+ @font-face { font-family: GilroyMedium; src: url('assets/Gilroy-Medium.ttf'); }
+
+body {
+  background-color: #2F3136;
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+.top-container {
+   width: 350px;
+   margin-top: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+ }
+
+.result-container {
+  text-align: center;
+}
+
+.title-container {
+  margin-bottom: 17px;
+}
+
+#change {
+  cursor: pointer;
+  background-color: #7289DA;
+  padding-bottom: 1px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.change_title {
+    font-family: GilroyMedium;
+    font-size: 12px;
+    color: white;
+}
+
+ .title {
+   font-family: GilroyBold;
+   font-size: 30px;
+   color: white;
+ }
+
+ .desc-container {
+   margin-bottom: 3px;
+ }
+
+ .description {
+   font-family: GilroyMedium;
+   font-size: 16px;
+   color: #8B8E96;
+   margin-top: 10px;
+ }
+
+ .word-input {
+   margin-top: 25px;
+   width: 310px;
+ }
+
+ input {
+   background-color: #202225;
+   border: none;
+   color: white;
+   font-family: GilroyMedium;
+   font-size: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   border-radius: 10px;
+ }
+
+ input:focus {
+   outline: none;
+ }
+
+#btn-create {
+  cursor: pointer;
+  margin-top: 25px;
+  background-color: #43B581;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+#btn-create span {
+  font-family: GilroySemiBold;
+  font-size: 15px;
+  color: white;
+}
+
+.result-container {
+  width: 100%;
+}
+
+#result-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  background-color: #393C43;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  max-width: 750px;
+
+}
+
+#result-box span {
+  font-family: GilroyBold;
+  font-size: 30px;
+  color: white;
+  word-wrap: break-word;
+}
+
+#post-process {
+  visibility: hidden;
+}
+
+.sep {
+  height: 1px;
+  background-color: #393C43;
+  margin-top: 35px;
+}
+
+.process-title {
+  display: block;
+  font-family: GilroyBold;
+  color: white;
+  font-size: 22px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
